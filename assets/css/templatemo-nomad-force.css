@@ -1,0 +1,45 @@
+/*---------------------------------------
+  PORTFOLIO               
+-----------------------------------------*/
+
+.news-image-hover {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: all .3s cubic-bezier(.645,.045,.355,1);
+  padding-bottom: 4px;
+  height: 100%;
+}
+
+.news-image-hover::after {
+  content: "";
+  width: 0;
+  height: 4px;
+  bottom: 0;
+  position: absolute;
+  left: auto;
+  right: 0;
+  z-index: -1;
+  transition: width .6s cubic-bezier(.25,.8,.25,1) 0s;
+  background: #198754;
+}
+
+.news-image-hover-warning::after {
+  background: #ffc107;
+}
+
+.news-image-hover-primary::after {
+  background: #0d6efd;
+}
+
+.news-image-hover-success::after {
+  background: #198754;
+}
+
+.news-image-hover:hover::after {
+  width: 100%;
+  left: 0;
+  right: auto;
+  z-index: 9;
+}
