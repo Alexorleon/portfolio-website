@@ -82,14 +82,19 @@
 
 
 
-
-
-  <!-- TODO Change image & ADD VIDEO -->
-  <div class="vg-page page-home" id="home" style="background-image: url(../assets/img/bg_image_1.jpg)">
+  <div class="vg-page page-home" id="home" >
+    <!-- Video Background -->
+    <div class="video-background">
+      <video autoplay loop muted class="custom-video" poster="../assets/videos/792bd98f3e617786c850493560e11c45.jpg">
+          <source src="../assets/videos/814dc43e870597176cad645798825c03.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+    </div><!-- End Video Background -->
+    
     <!-- Navbar -->
     <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500">
       <div class="container">
-        <a href="" class="navbar-brand">Alex-E</a>
+        <!-- <a href="" class="navbar-brand">Alex-E</a> -->
         <button class="navbar-toggler" data-toggle="collapse" data-target="#main-navbar" aria-expanded="true">
           <span class="ti-menu"></span>
         </button>
@@ -120,6 +125,7 @@
         </div>
       </div>
     </div> <!-- End Navbar -->
+
     <!-- Caption header -->
     <div class="caption-header text-center wow zoomInDown">
       <h5 class="fw-normal">Welcome</h5>
@@ -139,8 +145,6 @@
           </div>
         </div>
         <div class="col-lg-6 offset-lg-1 wow fadeInRight">
-          <h1 class="fw-light">Alexey Esipenko</h1>
-          <h5 class="fg-theme mb-3">Software Developer & Game Designer</h5>
           <!-- <h1 class="fw-light">Alexey Esipenko</h1>
           <h5 class="fg-theme mb-3">Software Developer & Game Designer</h5> -->
           <p class="text-muted">Привет. Меня зовут Алексей Есипенко. Я начал свой путь профессионального разработчика программного обеспечения в 2013 году. Первое время я занимался кроссплатформенной и веб разработкой. Однако, спустя несколько лет, я перешел в смежную с игровой индустрией отрасль. Создание тренажеров виртуальной реальности.</p>
@@ -228,64 +232,147 @@
       </div>
       <h1 class="fw-normal text-center wow fadeInUp">What can i do?</h1>
       <div class="row mt-5">
-        <div class="col-md-6 col-lg-4 col-xl-3">
-          <div class="card card-service wow fadeInUp">
+
+        <div class="col-md-6">
+          <div class="card card-service wow fadeInUp mb-4">
             <div class="icon">
               <span class="ti-paint-bucket"></span>
             </div>
             <div class="caption">
-              <h4 class="fg-theme">Game Development</h4>
-              <p>Профессиональная разработка на Unreal Engine</p>
+              <h4 class="fg-theme">Game & Level Design</h4>
+                <p>Визуально ориентированная проектная документация</p>
+                <p>Архитектура и структура проекта</p>
+                <p>Дизайн и блокинг уровней</p>
+                <p>Дизайн и реализация игровых систем</p>
+                <p>Прототипирование UI/UX</p>
+                <p>Сценарии и копирайтинг</p>
+                <p>Проведение и итерация плейтестов</p>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 col-xl-3">
-          <div class="card card-service wow fadeInUp">
-            <div class="icon">
-              <span class="ti-search"></span>
-            </div>
-            <div class="caption">
-              <h4 class="fg-theme">Game Design</h4>
-              <p>Полный цикл разработки игрового приложения</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 col-xl-3">
+
+        <div class="col-md-6">
           <div class="card card-service wow fadeInUp">
             <div class="icon">
               <span class="ti-vector"></span>
             </div>
             <div class="caption">
-              <h4 class="fg-theme">UI/UX Design</h4>
-              <p>There are many variations of passages of Lorem Ipsum available</p>
+              <h4 class="fg-theme">Leadership & Teamwork</h4>
+                <p>Разработка пайплайна и дорожной карты</p>
+                <p>Подбор и формирование команды</p>
+                <p>Руководство для достижения общего видения</p>
+                <p>Наставничество и фокус на совместной работе</p>
+                <p>Технические и адаптивные решения проблем</p>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 col-xl-3">
+
+        <div class="col-md-6">
+          <div class="card card-service wow fadeInUp mb-4">
+            <div class="icon">
+              <span class="ti-search"></span>
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">Game & Programming</h4>
+                <p>Unreal Engine, Unity, Qt</p>
+                <p>UE Blueprints, C++, C#, Python, QML, PHP, HTML/CSS/JS</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
           <div class="card card-service wow fadeInUp">
             <div class="icon">
               <span class="ti-desktop"></span>
             </div>
             <div class="caption">
-              <h4 class="fg-theme">Web Development</h4>
-              <p>По необходимости или в качестве хобби</p>
+              <h4 class="fg-theme">Software & DevOps</h4>
+                <p>Visual Studio, Visual Studio Code, Qt Creator</p>
+                <p>Git, Perforce, Sourcetree</p>
+                <p>Trello, Kaiten, Bitrix24, Obsidian</p>
+                <p>Google Docs, Google Sheets, Miro</p>
+                <p>Adobe Photoshop, Adobe Premiere Pro</p>
+                <p>Autodesk 3ds Max, Blender</p>
+                <p>Audacity</p>
             </div>
           </div>
         </div>
-        <!-- <div class="col-md-6 col-lg-4 col-xl-3">
-          <div class="card card-service wow fadeInUp">
+
+        <!-- <div class="col-md-6">
+          <div class="card card-service wow fadeInUp mb-4">
             <div class="icon">
               <span class="ti-paint-bucket"></span>
             </div>
             <div class="caption">
-              <h4 class="fg-theme">Game Development</h4>
-              <p>Профессиональная разработка на Unreal Engine</p>
+              <h4 class="fg-theme">Game & Level Design</h4>
+              <ul class="theme-list">
+                <li>Визуально ориентированная проектная документация</li>
+                <li>Архитектура и структура проекта</li>
+                <li>Дизайн и блокинг уровней</li>
+                <li>Дизайн и реализация игровых систем</li>
+                <li>Прототипирование UI/UX</li>
+                <li>Сценарии и копирайтинг</li>
+                <li>Проведение и итерация плейтестов</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <span class="ti-vector"></span>
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">Leadership & Teamwork</h4>
+              <ul class="theme-list">
+                <li>Разработка пайплайна и дорожной карты</li>
+                <li>Подбор и формирование команды</li>
+                <li>Руководство для достижения общего видения</li>
+                <li>Наставничество и фокус на совместной работе</li>
+                <li>Технические и адаптивные решения проблем</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card card-service wow fadeInUp mb-4">
+            <div class="icon">
+              <span class="ti-search"></span>
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">Game & Programming</h4>
+              <ul class="theme-list">
+                <li>Unreal Engine, Unity, Qt</li>
+                <li>UE Blueprints, C++, C#, Python, QML, PHP, HTML/CSS/JS</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <span class="ti-desktop"></span>
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">Software & DevOps</h4>
+              <ul class="theme-list">
+                <li>Visual Studio, Visual Studio Code, Qt Creator</li>
+                <li>Git, Perforce, Sourcetree</li>
+                <li>Trello, Kaiten, Bitrix24, Obsidian</li>
+                <li>Google Docs, Google Sheets, Miro</li>
+                <li>Adobe Photoshop, Adobe Premiere Pro</li>
+                <li>Autodesk 3ds Max, Blender</li>
+                <li>Audacity</li>
+              </ul>
             </div>
           </div>
         </div> -->
       </div>
     </div>
-  </div>
+</div>
   <!-- End services -->
   
   <!-- Portfolio page -->
@@ -353,7 +440,7 @@
         </div>
         <div class="grid-item graphic ui-ux wireframes wow zoomIn">
           <div class="img-place" data-src="../assets/img/work/work-6.jpg" data-caption="<h5 class='fg-theme'>Game Streaming</h5> <p>Games, Streaming</p>">
-            <a href="news-detail.html" class="news-image-hover news-image-hover-warning">
+            <a href="complex-detail.html" class="news-image-hover news-image-hover-warning">
               <img src="../assets/img/work/work-6.jpg" class="img-fluid large-news-image news-image" alt="">
             </a>
             <div class="img-caption">
@@ -434,42 +521,6 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 wow fadeInUp">
-          <div class="card">
-            <div class="img-place">
-              <img src="../assets/img/work/work-9.jpg" alt="">
-            </div>
-            <div class="caption">
-              <a href="javascript:void(0)" class="post-category">Technology</a>
-              <a href="#" class="post-title">Invision design forward fund</a>
-              <span class="post-date"><span class="sr-only">Published on</span> May 22, 2018</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 wow fadeInUp">
-          <div class="card">
-            <div class="img-place">
-              <img src="../assets/img/work/work-6.jpg" alt="">
-            </div>
-            <div class="caption">
-              <a href="javascript:void(0)" class="post-category">Business</a>
-              <a href="#" class="post-title">Announcing a plan for small teams</a>
-              <span class="post-date"><span class="sr-only">Published on</span> May 22, 2018</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 wow fadeInUp">
-          <div class="card">
-            <div class="img-place">
-              <img src="../assets/img/work/work-1.jpg" alt="">
-            </div>
-            <div class="caption">
-              <a href="javascript:void(0)" class="post-category">Design</a>
-              <a href="#" class="post-title">5 basic tips for illustrating</a>
-              <span class="post-date"><span class="sr-only">Published on</span> May 22, 2018</span>
-            </div>
-          </div>
-        </div>
         <div class="col-12 text-center py-3 wow fadeInUp">
           <a href="blog-fullbar.html" class="btn btn-theme">See All Post</a>
         </div>
@@ -503,54 +554,24 @@
   
   <!-- Footer -->
   <div class="vg-footer">
-    <h1 class="text-center">Virtual Folio</h1>
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 py-3">
-          <div class="footer-info">
-            <p>Where to find me</p>
-            <hr class="divider">
-            <p class="fs-large fg-white">1600 Amphitheatre Parkway Mountain View, California 94043 US</p>
-          </div>
-        </div>
         <div class="col-md-6 col-lg-3 py-3">
-          <div class="float-lg-right">
+          <div class="float-lg-none">
             <p>Follow me</p>
             <hr class="divider">
             <ul class="list-unstyled">
               <li><a href="#">Instagram</a></li>
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">Twitter</a></li>
+              <!-- <li><a href="#">Facebook</a></li> -->
+              <!-- <li><a href="#">Twitter</a></li> -->
               <li><a href="#">Youtube</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 py-3">
-          <div class="float-lg-right">
-            <p>Contact me</p>
-            <hr class="divider">
-            <ul class="list-unstyled">
-              <li>info@virtual.com</li>
-              <li>+8890234</li>
-              <li>+813023</li>
             </ul>
           </div>
         </div>
       </div>
       <div class="row justify-content-center mt-3">
-        <div class="col-12 mb-3">
-          <h3 class="fw-normal text-center">Subscribe</h3>
-        </div>
-        <div class="col-lg-6">
-          <form class="mb-3">
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Email address">
-              <input type="submit" class="btn btn-theme no-shadow" value="Subscribe">
-            </div>
-          </form>
-        </div>
         <div class="col-12">
-          <p class="text-center mb-0 mt-4">Copyright &copy;2020. All right reserved | This template is made with <span class="ti-heart fg-theme-red"></span> by <a href="https://www.macodeid.com/">MACode ID</a></p>
+          <p class="text-center mb-0 mt-4">&copy;2025 Alexey Esipenko</p>
         </div>
       </div>
     </div>
