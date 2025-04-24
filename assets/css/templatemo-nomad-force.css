@@ -64,6 +64,40 @@
   transition: opacity 0.5s ease; /* Плавное появление */
 }
 
+.custom-video-fit-center {
+  width: 100%;
+  height: 100%;
+  object-fit: center;
+  object-position: center;
+  /* Дополнительные эффекты */
+  filter: brightness(0.8); /* Затемнение видео */
+  transition: opacity 0.5s ease; /* Плавное появление */
+}
+
+/*@media (max-width: 576px) {
+  .custom-video {
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-video {
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 992px) {
+  .custom-video {
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 1200px) {
+  .custom-video {
+    object-fit: center;
+  }
+}*/
+
 .multi-images-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
