@@ -20,8 +20,6 @@
   
   <link rel="stylesheet" type="text/css" href="../assets/vendor/owl-carousel/owl.carousel.css">
   
-  <!-- <link rel="stylesheet" type="text/css" href="../assets/vendor/perfect-scrollbar/css/perfect-scrollbar.css"> -->
-  
   <link rel="stylesheet" type="text/css" href="../assets/vendor/nice-select/css/nice-select.css">
   
   <link rel="stylesheet" type="text/css" href="../assets/vendor/fancybox/css/jquery.fancybox.min.css">
@@ -32,55 +30,12 @@
 
   <link rel="stylesheet" type="text/css" href="../assets/css/nomad-force.css">
 </head>
-<body class="theme-red">
+<body class="theme-brown">
   
   <!-- Back to top button -->
   <div class="btn-back_to_top">
     <span class="ti-arrow-up"></span>
   </div>
-  
-
-
-  <!-- TODO REMOVE -->
-  <!--------------------------------------------------------->
-  <!-- Setting button -->
-  <div class="config">
-    <div class="template-config">
-      <!-- Settings -->
-      <div class="d-block">
-        <button class="btn btn-fab btn-sm" id="sideel" title="Settings"><span class="ti-settings"></span></button>
-      </div>
-      <!-- Puschase -->
-      <div class="d-block">
-        <a href="https://macodeid.com/projects/virtual-folio/" class="btn btn-fab btn-sm" title="Get this template" data-toggle="tooltip" data-placement="left"><span class="ti-download"></span></a>
-      </div>
-      <!-- Help -->
-      <div class="d-block">
-        <a href="#" class="btn btn-fab btn-sm" title="Help" data-toggle="tooltip" data-placement="left"><span class="ti-help"></span></a>
-      </div>
-    </div>
-    <div class="set-menu">
-      <p>Select Color</p>
-      <div class="color-bar" data-toggle="selected">
-        <span class="color-item bg-theme-red selected" data-class="theme-red"></span>
-        <span class="color-item bg-theme-blue" data-class="theme-blue"></span>
-        <span class="color-item bg-theme-green" data-class="theme-green"></span>
-        <span class="color-item bg-theme-orange" data-class="theme-orange"></span>
-        <span class="color-item bg-theme-purple" data-class="theme-purple"></span>
-      </div>
-      <select class="custom-select d-block my-2" id="change-page">
-        <option value="">Choose Page</option>
-        <option value="index">Topbar</option>
-        <option value="blog-topbar">Blog (Topbar)</option>
-        <option value="index-2">Minibar</option>
-        <option value="blog-minibar">Blog (Minibar)</option>
-      </select>
-    </div>
-  </div>
-  <!--------------------------------------------------------->
-  <!--------------------------------------------------------->
-
-
 
   <div class="vg-page page-home" id="home" >
     <!-- Video Background -->
@@ -112,9 +67,9 @@
             <li class="nav-item">
               <a href="#portfolio" class="nav-link" data-animate="scrolling">Portfolio</a>
             </li>
-            <li class="nav-item">
+            <!--<li class="nav-item">
               <a href="#blog" class="nav-link" data-animate="scrolling">Blog</a>
-            </li>
+            </li>-->
             <li class="nav-item">
               <a href="#contact" class="nav-link" data-animate="scrolling">Contact</a>
             </li>
@@ -154,9 +109,9 @@
           <p class="text-muted">Начав с кроссплатформенной разработки и затронув веб, я вскоре перешёл в сферу VR-тренажеров. Сегодня я совмещаю роли ведущего разработчика, геймдизайнера и руководителя команды. Проектирую системы, создаю уровни и игровые механики, пишу сценарии и веду команду к результату.</p>
           <p class="text-muted">Мне важно задавать направление, вдохновлять и вместе с командой создавать увлекательные, иммерсивные виртуальные миры. В свободное время я разрабатываю инди-игры — для души и экспериментов.</p>
           <ul class="theme-list">
-            <li><b>Lives In:</b> Kemerovo, Russia</li>
-            <li><b>Age:</b> <span class="years-count" id="yearsCount"></span></li>
-            <li><b>Gender:</b> Male</li>
+            <li>Lives In: <span>Kemerovo, Russia</span></li>
+            <li>Age: <span class="years-count" id="yearsCount"></span></li>
+            <li>Gender: <span>Male</span></li>
           </ul>
           <!-- TODO Get file <button class="btn btn-theme-outline">Download CV</button> -->
           <!--<button class="btn btn-theme btn-rounded">Download CV</button>-->
@@ -187,22 +142,22 @@
   </div>
   <!-- End statistics -->
   
-  <!-- Services -->
+  <!-- Skills -->
   <div class="vg-page page-service" id="skills">
     <div class="container">
       <div class="text-center wow fadeInUp">
         <div class="badge badge-subhead">Skills</div>
       </div>
-      <h1 class="fw-normal text-center wow fadeInUp">What can i do?</h1>
+      <h1 class="text-center fw-normal wow fadeInUp">What can i do?</h1>
       <div class="row mt-5">
 
         <div class="col-md-6">
           <div class="card card-service wow fadeInUp mb-4">
             <div class="icon">
-              <span class="ti-paint-bucket"></span>
+              <span class="ti-settings fg-theme"></span>
             </div>
             <div class="caption">
-              <h4 class="fg-theme">Game & Level Design</h4>
+              <h4 class="fg-theme">Game Design & Systems</h4>
                 <p>Визуально ориентированная проектная документация</p>
                 <p>Архитектура и структура проекта</p>
                 <p>Дизайн и блокинг уровней</p>
@@ -217,7 +172,7 @@
         <div class="col-md-6">
           <div class="card card-service wow fadeInUp">
             <div class="icon">
-              <span class="ti-vector"></span>
+              <span class="ti-crown fg-theme"></span>
             </div>
             <div class="caption">
               <h4 class="fg-theme">Leadership & Teamwork</h4>
@@ -233,12 +188,13 @@
         <div class="col-md-6">
           <div class="card card-service wow fadeInUp mb-4">
             <div class="icon">
-              <span class="ti-search"></span>
+              <span class="ti-pencil-alt fg-theme"></span>
             </div>
             <div class="caption">
-              <h4 class="fg-theme">Game & Programming</h4>
+              <h4 class="fg-theme">Development & Coding</h4>
                 <p>Unreal Engine, Unity, Qt</p>
-                <p>UE Blueprints, C++, C#, Python, QML, PHP, HTML/CSS/JS</p>
+                <p>UE Blueprints, C++, C#, Python</p>
+                <p>QML, PHP, HTML/CSS/JS</p>
             </div>
           </div>
         </div>
@@ -246,12 +202,12 @@
         <div class="col-md-6">
           <div class="card card-service wow fadeInUp">
             <div class="icon">
-              <span class="ti-desktop"></span>
+              <span class="ti-control-shuffle fg-theme"></span>
             </div>
             <div class="caption">
               <h4 class="fg-theme">Software & DevOps</h4>
-                <p>Visual Studio, Visual Studio Code, Qt Creator</p>
-                <p>Git, Perforce, Sourcetree</p>
+                <p>Visual Studio, VS Code, Qt Creator</p>
+                <p>Git, Sourcetree</p>
                 <p>Trello, Kaiten, Bitrix24, Obsidian</p>
                 <p>Google Docs, Google Sheets, Miro</p>
                 <p>Adobe Photoshop, Adobe Premiere Pro</p>
@@ -263,7 +219,7 @@
       </div>
     </div>
 </div>
-  <!-- End services -->
+  <!-- End skills -->
   
   <!-- Portfolio page -->
   <div class="vg-page page-portfolio" id="portfolio">
@@ -422,7 +378,7 @@
   <!-- End statistics -->
 
   <!-- Blog -->
-  <div class="vg-page page-blog" id="blog">
+  <!--<div class="vg-page page-blog" id="blog">
     <div class="container">
       <div class="text-center">
         <div class="badge badge-subhead wow fadeInUp">Blog</div>
@@ -432,7 +388,7 @@
         <div class="col-md-6 col-lg-4 wow fadeInUp">
           <div class="card">
             <div class="img-place">
-              <img src="../assets/img/work/work-9.jpg" alt="">
+              <img src="../assets/img/work/work-1.jpg" alt="">
             </div>
             <div class="caption">
               <a href="javascript:void(0)" class="post-category">Technology</a>
@@ -469,7 +425,7 @@
           <a href="blog-topbar.html" class="btn btn-theme">See All Post</a>
         </div>
       </div>
-    </div>
+    </div>-->
   </div> <!-- End blog -->
   
   <!-- Contact -->
@@ -529,8 +485,6 @@
   <script src="../assets/js/bootstrap.bundle.min.js"></script>
     
   <script src="../assets/vendor/owl-carousel/owl.carousel.min.js"></script>
-    
-  <!-- <script src="../assets/vendor/perfect-scrollbar/js/perfect-scrollbar.js"></script> -->
     
   <script src="../assets/vendor/isotope/isotope.pkgd.min.js"></script>
     
