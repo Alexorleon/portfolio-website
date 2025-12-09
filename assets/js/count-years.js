@@ -11,4 +11,7 @@ function calculateYears() {
 window.onload = function() {
     const years = calculateYears();
     document.getElementById('yearsCount').textContent = years;
+
+    const thisyear = new Date().getFullYear();
+    document.getElementById('currentyear').textContent = thisyear;
 };
