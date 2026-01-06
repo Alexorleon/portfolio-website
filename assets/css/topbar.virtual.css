@@ -60,6 +60,14 @@
   overflow: hidden;
 }
 
+.vg-detail {
+  position: relative;
+  display: block;
+  padding: 20px 0;
+  width: 100%;
+  overflow: hidden;
+}
+
 .vg-youtube {
   position: relative;
   display: block;
