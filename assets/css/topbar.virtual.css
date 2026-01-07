@@ -24,7 +24,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  max-width: 400px;
+  max-width: 600px;
 }
 
 .filterable-button .btn {
@@ -277,6 +277,16 @@
   background-color: #2F3238;
 }
 
+.page-works {
+  background-color: #2F3238;
+}
+
+.page-works .img-place {
+  width: 310px;
+  height: 240px;
+  background-color: #2F3238;
+  overflow: unset;
+}
 
 .page-funfact {
   padding: 100px 0;

@@ -101,10 +101,11 @@ $(document).ready(function() {
     }, 1000);
     return false;
   });
-  
+
   var $grid = $('.gridder').isotope({
     itemSelector: '.grid-item',
-    percentPosition: true
+    percentPosition: true,
+    filter: '.all'
   });
   
   // filter items on button click
